@@ -1,0 +1,8 @@
+language: node_js
+os: linux
+arch: amd64
+deploy:
+  provider: pages:git
+  edge: true
+  token: $GH_TOKEN
+  verbose: true
